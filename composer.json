@@ -10,9 +10,7 @@
             "email": "q1205977590@gmail.com"
         }
     ],
-    "require": {
-        "aliyuncs/oss-sdk-php": "~2.0"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {
             "ZhCNCode\\LaravelDingTalk\\": "src/"
