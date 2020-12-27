@@ -1,0 +1,28 @@
+{
+    "name": "zh-cn-code/LaravelDingTalk",
+    "description": "按照项目需求封装Dingtalk相关接口到laravel框架中",
+    "keywords": ["aliyun", "dingtalk", "laravel"],
+    "homepage": "https://github.com/zhCN-code/LaravelDingTalk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yangxiaohui",
+            "email": "q1205977590@gmail.com"
+        }
+    ],
+    "require": {
+        "aliyuncs/oss-sdk-php": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZhCNCode\\LaravelDingTalk\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ZhCNCode\\LaravelDingTalk\\LaravelDingTalkServiceProvider"
+            ]
+        }
+    }
+}
