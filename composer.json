@@ -1,5 +1,5 @@
 {
-    "name": "zh-cn-code/LaravelDingTalk",
+    "name": "zh-cn-code/ding-talk_laravel",
     "description": "按照项目需求封装Dingtalk相关接口到laravel框架中",
     "keywords": ["aliyun", "dingtalk", "laravel"],
     "homepage": "https://github.com/zhCN-code/LaravelDingTalk",
